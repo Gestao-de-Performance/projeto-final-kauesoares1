@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.cabeçalho{
+    display: flex;
+    height: 200px;
+    background: rgb(196, 102, 102);
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome{
+    flex: 15%;
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+.informações{
+    margin-left: 10%;
+}
+
+.informações a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.informações a:hover{
+    color: blue;
+}
+
+.apresentação{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+}
+
+.objetivo{
+    padding-top: 15px;
+    margin-right: 10%;
+    font-size: 18px;
+    margin-left: 10%;
+}
+
+.habilidades{
+    padding-top: 15px;
+    margin-left: 10%;
+}
+
+.projeto{
+    padding-top: 15px;
+}
+.projeto a{
+    color: black;
+    margin-left: 10%;
+    font-size: 22px;
+}
+footer{
+
+    width: 100%;
+    height: 200px;
+    background: rgb(196, 102, 102);
+    align-items: center;
+    display: flex;
+    bottom: 0;
+    position: absolute;
+}
